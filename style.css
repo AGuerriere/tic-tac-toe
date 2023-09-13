@@ -10,10 +10,9 @@
 }
 
 .board-button {
-  font-size: 175px;
+  font-size: 150px;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .one, .two, .three, .four, .five, .six {
