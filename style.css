@@ -1,0 +1,25 @@
+
+
+* {
+  font-family: sans-serif;
+}
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 150px);
+}
+
+.board-button {
+  font-size: 175px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.one, .two, .three, .four, .five, .six {
+  border-bottom: 5px solid black;
+}
+
+.one, .two, .four, .five, .seven, .eight {
+  border-right: 5px solid black;
+}
