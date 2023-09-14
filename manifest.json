@@ -1,5 +1,5 @@
 {
-  "background_color": "#000000",
+  "background_color": "rgb(218, 77, 105)",
   "description": "A game of Tic-Tac-Toe",
   "dir": "ltr",
   "display": "standalone",
@@ -8,7 +8,7 @@
   "scope": "/",
   "short_name": "Tic-Tac-Toe",
   "start_url": "/",
-  "theme_color": "#000000",
+  "theme_color": "rgb(218, 77, 105)",
   "categories": [],
   "screenshots": [],
   "icons": [
