@@ -1,0 +1,24 @@
+{
+  "background_color": "#000000",
+  "description": "A game of Tic-Tac-Toe",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Tic-Tac-Toe",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Tic-Tac-Toe",
+  "start_url": "/",
+  "theme_color": "#000000",
+  "categories": [],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "ico.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    }
+  ],
+  "shortcuts": [],
+  "id": "Tic-Tac-Toe",
+  "lang": "en"
+}
