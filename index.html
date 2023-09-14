@@ -3,23 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Another Tic Tac Toe</title>
+  <title>Another Tic-Tac-Toe</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>❌</text></svg>">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@300;400&family=Poppins:wght@700&family=Roboto+Mono:wght@300&family=Roboto:wght@300&family=Rubik+Mono+One&display=swap" rel="stylesheet">
 </head>
 <body>
-  
-  <div class="game-grid">
-    <div class="board-button one"></div>
-    <div class="board-button two"></div>
-    <div class="board-button three"></div>
-    <div class="board-button four"></div>
-    <div class="board-button five"></div>
-    <div class="board-button six"></div>
-    <div class="board-button seven"></div>
-    <div class="board-button eight"></div>
-    <div class="board-button nine"></div>
-  </div>
+  <nav><h1>Tic-Tac-Toe</h1></nav>
+  <main>
+    <div class="scoreboard">Player x turn</div>
+    <div class="game-grid">
+      <div class="board-button one"></div>
+      <div class="board-button two"></div>
+      <div class="board-button three"></div>
+      <div class="board-button four"></div>
+      <div class="board-button five"></div>
+      <div class="board-button six"></div>
+      <div class="board-button seven"></div>
+      <div class="board-button eight"></div>
+      <div class="board-button nine"></div>
+    </div>
+    <button type="button" class="reset">Reset</button>
+  </main>
+  <footer>Made by Antonio Guerriere ⚡️</footer>
   <script src="main.js"></script>
 </body>
 </html>
