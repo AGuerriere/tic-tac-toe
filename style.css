@@ -5,14 +5,17 @@
 }
 .game-grid {
   display: grid;
-  grid-template-columns: repeat(3, 150px);
-  grid-template-rows: repeat(3, 150px);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  max-width: 500px;
+  min-width: 200px;
 }
 
 .board-button {
   font-size: 150px;
   display: flex;
   justify-content: center;
+  height: 150px;
 }
 
 .one, .two, .three, .four, .five, .six {
